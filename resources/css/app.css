@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../views/**/*.blade.php';
+@source '../../app/Livewire/**/*.php';
+
+@theme {
+    --color-rose-ink: #be185d;
+    --color-blush: #fff1f6;
+    --font-sans: ui-sans-serif, system-ui, sans-serif;
+}
+[x-cloak] { display: none !important; }
+:focus-visible { outline: 3px solid #be185d; outline-offset: 3px; }
